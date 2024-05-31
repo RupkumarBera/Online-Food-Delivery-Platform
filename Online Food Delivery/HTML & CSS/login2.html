@@ -1,0 +1,61 @@
+<html>
+    <body>
+       <center>
+        <style>
+            body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .create-account-btn {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .create-account-btn:hover {
+            background-color: #45a049;
+        }
+            body {
+                  background-image: url('f7.jpg');
+                  background-size: cover; 
+                  background-repeat: no-repeat;
+                  }
+        </style>
+        <marquee width ="70%" direction ="left"> <h3 style="color: brown;">ONLINE FOOD DELIVERY</h3></marquee><br><br>
+    
+        <form action="login2.jsp" method="post">
+        <center>
+            <h1 style="color: rgb(197, 18, 18);">CREATE NEW ACCOUNT</h1>
+            <table border="3" bgcolor="DarkGray">
+                <tr>
+                    <td>NAME</td>
+                    <td><input type="text" placeholder="Enter your Name" name="nm" required></td>
+                </tr>
+                <tr>
+                    <td>MOBILE NO</td>
+                    <td><input type="number" placeholder="10 Digit Mobile No" name="mn"></td>
+                </tr>
+                <tr>
+                    <td>PASSWORD</td>
+                    <td><input type="password" placeholder="Enter your Password" name="pass"></td>
+                </tr>
+                <tr>
+                    <td>ADDRESS</td>
+                    <td><textarea rows="5" cols="25" placeholder="Enter your Address" name="addrs"></textarea></td>
+                </tr>
+            </table><br><br>
+            <button class="create-account-btn">Create Account</button>
+        </center>
+    </center> 
+        </form>
+   </body>
+</html>

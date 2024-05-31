@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<style>
+    h2{
+        font-size: 30px;
+    }
+    
+</style>
+<head>
+    <title>Sign in</title>
+    
+    <style>
+        body {
+background-image: url('12.jpg');
+background-size: cover; 
+background-repeat:no-repeat;
+}
+    </style>
+</head>
+<body>
+    <form action="insertfood.jsp" method="post">
+        <center>
+            <marquee width ="70%" direction ="left"> <h3 style="color: brown;">ONLINE FOOD DELIVERY</h3></marquee>
+            <h1 style="color: darkcyan;">INSERT FOOD PAGE</h1>
+            <h2>Please Insert Food</h2>
+            <p>Enter the Food</p>
+            <table border="1" bgcolor="SKYBLUE">
+                <tr>
+                    <td>Food Name</td>
+                    <td><input type="text" name="food"  required></td>
+                </tr>
+                <tr>
+                    <td><center>Type</center></td>
+                    <td><input type="text" name="ty" required></td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td><input type="text" name="pri"></td>
+                </tr>
+                <tr>
+                    <td class=" oval-button"><center><input type="reset" value="clear"></td>
+                    <td class=" oval-button"><center><input type="submit" value="Insert"></td>
+                </tr>
+            </table>
+        </center>
+    </form>
+    
+    
+</body>
+</html>
